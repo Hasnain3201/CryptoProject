@@ -1,4 +1,3 @@
-# Crypto Project
 # DMDS - Analyzing Cryptocurrency Market Trends: Unveiling Patterns and Predicting the Future
 
 
