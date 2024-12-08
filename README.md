@@ -1,5 +1,5 @@
-# CryptoProject
-DMDS - Analyzing Cryptocurrency Market Trends: Unveiling Patterns and Predicting the Future
+# Crypto Project
+# DMDS - Analyzing Cryptocurrency Market Trends: Unveiling Patterns and Predicting the Future
 
 
 ## Setup Instructions
