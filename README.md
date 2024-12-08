@@ -86,7 +86,3 @@ Follow these steps to open and execute the project notebook:
 - **`README.md`**: Instructions and documentation for setting up and running the project.
 
 ---
-
-### Notes
-- Ensure you have Python 3.8 or above installed on your system.
-- If Jupyter Notebook is not already installed, you can install it by adding it to the `requirements.txt` file.
