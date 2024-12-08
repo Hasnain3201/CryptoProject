@@ -9,7 +9,7 @@
 3. Select this dropdown, and you will see the option to download the data as a CSV file.
 4. Save the CSV file to your local system for use in the project.
 
-There is a sample csv file attached within this repo, called: BTC_7D_graph_coinmarketcap.csv
+**There is a sample csv file attached within this repo, called: BTC_7D_graph_coinmarketcap.csv**
 
 ---
 
