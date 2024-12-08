@@ -1,9 +1,17 @@
-# DMDS - Analyzing Cryptocurrency Market Trends: Unveiling Patterns and Predicting the Future
 
+# Customer Churn Prediction
 
 ## Setup Instructions
 
-### 1. Creating the Virtual Environment
+### 1. Download the Dataset
+1. Go to [CoinMarketCap Bitcoin Data](https://coinmarketcap.com/currencies/bitcoin/).
+2. Next to the buttons where you can choose time ranges like 1D, 7D, 1M, etc., there will be three dots (`...`) as a dropdown menu.
+3. Select this dropdown, and you will see the option to download the data as a CSV file.
+4. Save the CSV file to your local system for use in the project.
+
+---
+
+### 2. Creating the Virtual Environment
 To isolate project dependencies, create a virtual environment:
 
 ```bash
@@ -12,7 +20,7 @@ python -m venv venv
 
 ---
 
-### 2. Activating the Virtual Environment
+### 3. Activating the Virtual Environment
 Activate the virtual environment with the following command:
 
 - **Linux/Mac**:
@@ -27,7 +35,7 @@ Activate the virtual environment with the following command:
 
 ---
 
-### 3. Installing Required Libraries
+### 4. Installing Required Libraries
 Install all necessary libraries by running:
 
 ```bash
@@ -36,7 +44,27 @@ pip install -r requirements.txt
 
 ---
 
-### 4. Running Jupyter Notebook
+### 5. Configuring the Python Code
+To properly run the project, you need to make the following updates in the Python code:
+
+1. **MySQL Configuration**: Provide the correct host, username, and password in the `db_config` dictionary to successfully connect to your MySQL database.
+   ```python
+   db_config = {
+       'host': 'your_mysql_host',
+       'user': 'your_mysql_username',
+       'password': 'your_mysql_password',
+       'database': 'your_database_name'
+   }
+   ```
+
+2. **File Path for CSV**: Update the `csv_file` variable in the `create_database_and_table` function to the location where you saved the CSV file.
+   ```python
+   csv_file = "path_to_your_downloaded_csv_file.csv"
+   ```
+
+---
+
+### 6. Running Jupyter Notebook
 Follow these steps to open and execute the project notebook:
 
 1. Start the Jupyter Notebook server by running:
@@ -46,7 +74,7 @@ Follow these steps to open and execute the project notebook:
 
 2. Once the server starts, a browser window will open showing the file directory.
 
-3. Open the **`crypto.ipynb`** file.
+3. Navigate to the project folder and open the **`crypto.ipynb`** file.
 
 4. Execute the notebook cell by cell to process the data and evaluate the model.
 
@@ -58,3 +86,7 @@ Follow these steps to open and execute the project notebook:
 - **`README.md`**: Instructions and documentation for setting up and running the project.
 
 ---
+
+### Notes
+- Ensure you have Python 3.8 or above installed on your system.
+- If Jupyter Notebook is not already installed, you can install it by adding it to the `requirements.txt` file.
