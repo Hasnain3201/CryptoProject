@@ -1,5 +1,5 @@
 
-# Customer Churn Prediction
+# Analyzing Cryptocurrency Market Trends: Unveiling Patterns and Predicting the Future
 
 ## Setup Instructions
 
@@ -8,6 +8,8 @@
 2. Next to the buttons where you can choose time ranges like 1D, 7D, 1M, etc., there will be three dots (`...`) as a dropdown menu.
 3. Select this dropdown, and you will see the option to download the data as a CSV file.
 4. Save the CSV file to your local system for use in the project.
+
+There is a sample csv file attached within this repo, called: BTC_7D_graph_coinmarketcap.csv
 
 ---
 
@@ -84,5 +86,6 @@ Follow these steps to open and execute the project notebook:
 - **`crypto.ipynb`**: The main Jupyter Notebook for analyzing and visualizing cryptocurrency data.
 - **`requirements.txt`**: Contains all the necessary dependencies for this project.
 - **`README.md`**: Instructions and documentation for setting up and running the project.
+- **`BTC_7D_graph_coinmarketcap.csv`**: Sample csv file for testing.
 
 ---
