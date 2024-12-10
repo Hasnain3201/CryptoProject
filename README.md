@@ -82,6 +82,15 @@ Follow these steps to open and execute the project notebook:
 
 ---
 
+### Demo Video
+
+Within the codebench submission, there is code that can be run to launch the video within Jupyter Notebook. 
+Alternatively, you can access the demo video using this link:
+
+https://drive.google.com/file/d/16ufPBbf2Oys-NEXPNZvsLz4UPN5W9BMi/view?usp=sharing
+
+---
+
 ### Repository Structure
 - **`crypto.ipynb`**: The main Jupyter Notebook for analyzing and visualizing cryptocurrency data.
 - **`requirements.txt`**: Contains all the necessary dependencies for this project.
